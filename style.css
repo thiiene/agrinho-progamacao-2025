@@ -14,10 +14,10 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #e49652d3;
+  background-color: #ffa352d3;
   padding: 20px;
   text-align: center;
-  border-bottom: 4px solid #ff7d31e9;
+  border-bottom: 4px solid #ffa352d3;
 }
 
 header h1 {
@@ -171,10 +171,10 @@ button:hover {
 
 /* Rodapé */
 footer {
-  background-color: #e49652d3;
+  background-color: #ffa352d3;
   padding: 30px 20px;
   text-align: center;
-  border-top: 4px solid #d77d38dc;
+  border-top: 4px solid #ffa352d3;
   margin-top: 60px;
 }
 
