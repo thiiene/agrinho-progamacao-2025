@@ -114,7 +114,7 @@ nav a:hover {
 .produto a {
   display: inline-block;
   margin-top: 10px;
-  background-color: #f94700;
+  background-color: #ff733c;
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
@@ -171,7 +171,7 @@ button:hover {
 
 /* Rodapé */
 footer {
-  background-color: #ff4d00;
+  background-color: #e49652d3;
   padding: 30px 20px;
   text-align: center;
   border-top: 4px solid #fb6d00dc;
