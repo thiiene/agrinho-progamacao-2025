@@ -14,10 +14,10 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #ff6f00;
+  background-color: #ff8e38;
   padding: 20px;
   text-align: center;
-  border-bottom: 4px solid #ff7d31;
+  border-bottom: 4px solid #ff7d31e9;
 }
 
 header h1 {
