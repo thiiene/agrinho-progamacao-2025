@@ -22,7 +22,7 @@ header {
 
 header h1 {
   font-size: 2.5rem;
-  color: #d01515;
+  color: hsla(0, 94%, 49%, 0.848);
   margin-bottom: 10px;
 }
 
@@ -71,7 +71,7 @@ nav a:hover {
   font-size: 1.2rem;
   max-width: 800px;
   margin: 0 auto 10px;
-  background-color: rgb(163, 163, 163);
+  background-color: rgb(151, 166, 253);
   padding: 10px;
   border-radius: 10px;
 }
@@ -166,15 +166,15 @@ button {
 }
 
 button:hover {
-  background-color: #f4a545;
+  background-color: #0d1be5;
 }
 
 /* Rodapé */
 footer {
-  background-color: #ffa352d3;
+  background-color: #2226f3d3;
   padding: 30px 20px;
   text-align: center;
-  border-top: 4px solid #ffa352d3;
+  border-top: 4px solid #656cf6d3;
   margin-top: 60px;
 }
 
