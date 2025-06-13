@@ -14,15 +14,15 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #ffa352d3;
+  background-color: #1c429bd3;
   padding: 20px;
   text-align: center;
-  border-bottom: 4px solid #ffa352d3;
+  border-bottom: 4px solid #1c429bd3;
 }
 
 header h1 {
   font-size: 2.5rem;
-  color: #3e2f1c;
+  color: #d01515;
   margin-bottom: 10px;
 }
 
@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #b85c38;
+  color: #92c1ff;
 }
 
 /* Seções */
@@ -85,8 +85,8 @@ nav a:hover {
 }
 
 .queijo {
-  background-color: #fff7e0;
-  border: 1px solid #e6c87c;
+  background-color: #9a999b;
+  border: 1px solid #8189d3;
   padding: 20px;
   border-radius: 12px;
   width: 300px;
@@ -102,8 +102,8 @@ nav a:hover {
 }
 
 .produto {
-  background-color: #fdf3d8;
-  border: 1px solid #e0c488;
+  background-color: #9a999b;
+  border: 1px solid #8189d3;
   padding: 20px;
   border-radius: 12px;
   width: 300px;
@@ -123,7 +123,7 @@ nav a:hover {
 }
 
 .produto a:hover {
-  background-color: #94462b;
+  background-color: #000000;
 }
 
 /* Histórias */
@@ -144,7 +144,7 @@ form {
 
 input, textarea {
   padding: 10px;
-  border: 1px solid #6d3b14;
+  border: 1px solid #181715;
   border-radius: 6px;
   font-size: 1rem;
 }
