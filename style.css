@@ -14,10 +14,10 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #f8e4b8;
+  background-color: #ff6f00;
   padding: 20px;
   text-align: center;
-  border-bottom: 4px solid #e0c488;
+  border-bottom: 4px solid #ff7d31;
 }
 
 header h1 {
@@ -114,7 +114,7 @@ nav a:hover {
 .produto a {
   display: inline-block;
   margin-top: 10px;
-  background-color: #b85c38;
+  background-color: #f94700;
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
@@ -171,15 +171,15 @@ button:hover {
 
 /* Rodapé */
 footer {
-  background-color: #f8e4b8;
+  background-color: #ff4d00;
   padding: 30px 20px;
   text-align: center;
-  border-top: 4px solid #e0c488;
+  border-top: 4px solid #fb6d00dc;
   margin-top: 60px;
 }
 
 .social-media a {
   margin: 0 10px;
-  color: #6a4e2e;
+  color: #706e6c;
   text-decoration: none;
   font-weight: bold
