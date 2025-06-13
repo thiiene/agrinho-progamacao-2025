@@ -33,7 +33,7 @@ nav {
 nav a {
   margin: 0 10px;
   text-decoration: none;
-  color: #6a4e2e;
+  color: #9d9d9d;
   font-weight: 700;
   transition: color 0.3s;
 }
@@ -71,7 +71,7 @@ nav a:hover {
   font-size: 1.2rem;
   max-width: 800px;
   margin: 0 auto 10px;
-  background-color: rgb(108, 70, 20);
+  background-color: rgb(163, 163, 163);
   padding: 10px;
   border-radius: 10px;
 }
