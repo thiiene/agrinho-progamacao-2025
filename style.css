@@ -1,0 +1,185 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #fffdf5;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #f8e4b8;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #e0c488;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #3e2f1c;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #6a4e2e;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #b85c38;
+}
+
+/* Seções */
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4b3820;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1590080877038-8b1a81d7ff5b') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Queijos */
+.queijos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.queijo {
+  background-color: #fff7e0;
+  border: 1px solid #e6c87c;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Loja */
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.produto {
+  background-color: #fdf3d8;
+  border: 1px solid #e0c488;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.produto a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #b85c38;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.produto a:hover {
+  background-color: #94462b;
+}
+
+/* Histórias */
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+/* Contato */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  background-color: #6a4e2e;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4b3820;
+}
+
+/* Rodapé */
+footer {
+  background-color: #f8e4b8;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 4px solid #e0c488;
+  margin-top: 60px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #6a4e2e;
+  text-decoration: none;
+  font-weight: bold
